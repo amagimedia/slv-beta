@@ -8,6 +8,7 @@ require (
 	github.com/btcsuite/btcutil v1.0.2 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/spf13/cobra v1.8.0 // indirect
@@ -15,6 +16,7 @@ require (
 	golang.org/x/crypto v0.16.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gopkg.shib.me/gociphers v0.4.0 // indirect
 )
 
 replace github.com/shibme/slv v0.0.0 => ./slv
