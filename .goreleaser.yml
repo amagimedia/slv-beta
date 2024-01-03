@@ -2,7 +2,7 @@ project_name: slv
 builds:
   - env:
       - CGO_ENABLED=0
-    ldflags: "-X github.com/shibme/slv/cli/commands.AppName={{.ProjectName}} -X github.com/shibme/slv/cli/commands.Version={{.Version}}"
+    ldflags: "-X github.com/amagimedia/slv/cli/commands.AppName={{.ProjectName}} -X github.com/amagimedia/slv/cli/commands.Version={{.Version}}"
     goarch:
       - amd64
       - arm64
@@ -22,8 +22,8 @@ changelog:
       - '^test:'
 nfpms:
   - vendor: Amagi Media Private Ltd.
-    homepage: https://github.com/amagimedia/slv-beta
-    maintainer: Shibly Meeran <shibme@shib.me>
+    homepage: https://github.com/amagimedia/slv
+    maintainer: Shibly Meeran <shibly.meeran@amagi.com>
     formats:
       - apk
       - deb

@@ -14,12 +14,12 @@ jobs:
       - name: Checkout Code - SLV
         uses: actions/checkout@v4
         with:
-          repository: shibme/slv
+          repository: amagimedia/slv
           ref: main
           path: slv
           ssh-key: ${{ secrets.SLV_REPO_READ_SSH_KEY }}
       - name: Set up Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v5
         with:

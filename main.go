@@ -1,13 +1,7 @@
 package main
 
-import (
-	"os"
-
-	"github.com/shibme/slv/cli/commands"
-)
+import "github.com/amagimedia/slv/cli/cli"
 
 func main() {
-	if err := commands.SlvCommand().Execute(); err != nil {
-		os.Exit(1)
-	}
+	cli.RunCLI()
 }
